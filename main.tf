@@ -19,7 +19,7 @@ terraform {
     bucket         = "terraform-upgrad-s3"
     key            = "example.tfstate"
     region         = "us-east-1"
-    access_key     = "AKIASSKB242XHSXIIM27"
-    secret_key     = "lG9xiIwjl6RoHaukra51MdVrtPA5wrZyhbEuEuLI"
+    access_key     = ""
+    secret_key     = ""
   }
 }
