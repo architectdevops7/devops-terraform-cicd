@@ -20,9 +20,9 @@ pipeline {
             }
         }
 
-        stage('Terraform Apply') {
+        stage('Terraform Action') {
             steps {
-                sh 'terraform apply -auto-approve tfplan'
+                sh ("terraform ${action} -auto-approve tfplan")
             }
         }
     }
